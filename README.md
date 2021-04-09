@@ -1,2 +1,2 @@
 # Microsoft-bootcamp-backend
-Here is the source code of today session of backend development.
+Here is the source code of 09/04 session with Microsoft FSB Club of backend development.
