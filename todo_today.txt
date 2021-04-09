@@ -1,0 +1,28 @@
+//TODO:
+1. introduction to PHP:
+  -Hello World.
+  -Variables.
+  -Strings.
+  -Mathematics Operations.
+  -Arrays.
+  -Loops.
+  -Conditional Statements.
+  -Functions.
+  -Variable Scope.
+  -Include & Required.
+
+2. Setup the Forum.
+  -Get & Post.
+  -Actions.
+  -How To Encounter The XSS Attacks.
+
+3. Manipulate Data.
+  -Basic Form Validations.
+  -Filters & Custom Validations.
+  -Showing Errors.
+
+4. Using MySQL to Store Data.
+  -Setting up MySQL Database.
+  -Connection to DB.
+  -Storing Data to The DB & How To Encounter SQL Injection.
+  -Setting up The Login.

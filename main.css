@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(196, 196, 196);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.container{
+height: auto;
+display: flex;
+}
+.form{
+    background: linear-gradient(45deg, #05478A 70%,#B85900 );
+    width: 35%;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    transition: all ease-in 0.3s; 
+}
+
+.form-group{
+    color: white;
+    margin: 1rem; 
+    padding: 0.2rem 0;
+}
+input{
+    background-color: #E1EFE6;
+    padding: .6rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.button{
+    color: #05478A;
+    text-decoration: none;
+    background-color: #C7EF00;
+    padding: 0.5rem 2rem;
+    border-radius: 50px;
+    transition: all .3s ease;
+}
+.button:hover{
+    background-color: #BBE000;
+
+}
+
+.img{
+position: relative;
+width: 300px;
+min-width: 250px;
+display: flex;
+justify-content: center;
+}
+.img img{
+    width: 100%;
+}
+
+.reg-log{
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.link{
+ margin: 1rem 3rem;
+ margin-top: 2rem;
+ background-color: #05478A;
+ color: #E1EFE6;
+ padding: 0.5rem 2rem;
+ text-decoration: none;
+ border-radius: 50px;
+ transition: all 0.3s ease;
+}
+
+.active{
+    background: linear-gradient(45deg, #05478A -30%,#B85900 );
+}
+@media only screen and (max-width: 1450px) { 
+    
+    .img{
+        display: none;
+    }
+
+    .form{
+        justify-content: center;
+    }
+}
+
